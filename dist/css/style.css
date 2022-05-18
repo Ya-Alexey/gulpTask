@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Inter";
+  font-display: swap;
+  src: local("Inter-Black"), url("../fonts/Inter-Black.woff") format("woff"), url("../fonts/Inter-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 180%;
+  color: black;
+  background-color: #fff;
+  overflow-x: hidden;
+}

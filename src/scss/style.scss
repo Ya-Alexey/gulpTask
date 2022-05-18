@@ -1,0 +1,19 @@
+// @import "../../node_modules/normalize.css/normalize";
+@import "./component/fonts";
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    color: black;
+    background-color: #fff;
+    overflow-x: hidden;
+}
